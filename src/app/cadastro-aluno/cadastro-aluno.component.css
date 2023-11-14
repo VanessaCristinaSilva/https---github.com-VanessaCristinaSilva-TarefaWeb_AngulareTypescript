@@ -1,0 +1,16 @@
+.linha {
+  display: flex;
+  gap: 10px;
+}
+
+.input-container {
+  display: flex;
+  gap: 20px;
+}
+
+#nome,
+#ra,
+#cel,
+#email {
+  width: 100%;
+}

@@ -1,0 +1,37 @@
+<!-- Seu template HTML -->
+<div style="padding-left: 5px;">
+    <h1>Calcular Média</h1>
+  
+    <div style="display: flex; gap: 10px;">
+      <div>
+        <label for="ac1">AC1:</label>
+        <input type="number" [(ngModel)]="ac1" />
+      </div>
+      <div>
+        <label for="ac2">AC2:</label>
+        <input type="number" [(ngModel)]="ac2" />
+      </div>
+    </div>
+  
+    <div style="display: flex; gap: 10px; padding-top: 10px;">
+      <div>
+        <label for="ag">AG:</label>
+        <input type="number" [(ngModel)]="ag" />
+      </div>
+      <div>
+        <label for="af">AF:</label>
+        <input type="number" [(ngModel)]="af" />
+      </div>
+    </div>
+  
+    <div style="padding-top: 10px;">
+      <button class="btn btn-outline-primary" (click)="calcular()">Calcular</button>
+    </div>
+  
+    <div style="padding-top: 10px;">
+      <p>Média: {{ media }}</p>
+      <p>{{ resultado }}</p>
+    </div>
+  </div>
+  
+  

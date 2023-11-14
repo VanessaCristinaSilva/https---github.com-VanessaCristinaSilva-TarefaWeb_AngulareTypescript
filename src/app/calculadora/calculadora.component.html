@@ -1,0 +1,21 @@
+<!-- Seu template HTML -->
+<div class="calculadora-component">
+  <div class="campos">
+    <h1>Calculadora</h1>
+    <p>Insira sua operação abaixo:</p>
+    <input type="number" id="numero1" [(ngModel)]="numero1">
+    <select id="operacao" [(ngModel)]="operacao">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" id="numero2" [(ngModel)]="numero2">
+  </div>
+
+  <div class="calcular-button">
+    <button class="button" (click)="calcular()">Calcular</button>
+  </div>
+
+  <p>{{ resultado }}</p>
+</div>
