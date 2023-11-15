@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-calcular-media',
-  templateUrl: './calcular-media.component.html',
-  styleUrls: ['./calcular-media.component.css']
+  selector: 'app-calculadora-media',
+  templateUrl: './calculadora-media.component.html',
+  styleUrls: ['./calculadora-media.component.css']
 })
 
-export class CalcularMediaComponent {
+export class CalculadoraMediaComponent {
   ac1!: number;
   ac2!: number;
   ag!: number;

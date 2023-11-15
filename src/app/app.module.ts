@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CalcularMediaComponent } from './calcular-media/calcular-media.component';
+import { CalculadoraMediaComponent } from './calculadora-media/calculadora-media.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
 import { CadastroAlunoComponent } from './cadastro-aluno/cadastro-aluno.component';
 import { ApoliceSeguroComponent } from './apolice-seguro/apolice-seguro.component';
@@ -12,10 +12,12 @@ import { ApoliceSeguroComponent } from './apolice-seguro/apolice-seguro.componen
 @NgModule({
   declarations: [
     AppComponent,
-    CalcularMediaComponent,
+    CalculadoraMediaComponent,
     CalculadoraComponent,
     CadastroAlunoComponent,
     ApoliceSeguroComponent,
+    FormsModule,
+    
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

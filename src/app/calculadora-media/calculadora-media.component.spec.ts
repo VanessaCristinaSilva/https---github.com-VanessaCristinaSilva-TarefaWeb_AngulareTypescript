@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CalcularMediaComponent } from './calcular-media.component';
+import { CalculadoraMediaComponent } from './calcular-media.component';
 
 describe('CalcularMediaComponent', () => {
-  let component: CalcularMediaComponent;
-  let fixture: ComponentFixture<CalcularMediaComponent>;
+  let component: CalculadoraMediaComponent;
+  let fixture: ComponentFixture<CalculadoraMediaComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CalcularMediaComponent]
+      declarations: [CalculadoraMediaComponent]
     });
-    fixture = TestBed.createComponent(CalcularMediaComponent);
+    fixture = TestBed.createComponent(CalculadoraMediaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

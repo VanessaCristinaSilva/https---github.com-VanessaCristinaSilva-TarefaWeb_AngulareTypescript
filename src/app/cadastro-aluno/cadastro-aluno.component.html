@@ -1,17 +1,25 @@
 <div class="cadastro-aluno">
   <div class="input-container">
     <div class="linha">
-      <label for="nome">Nome</label>
-      <input placeholder="Insira aqui seu nome" type="text" id="nome" [(ngModel)]="nome">
-      <label for="email">E-mail:</label>
-      <input placeholder="Insira aqui seu e-mail" type="email" id="email" [(ngModel)]="email">
-    </div>
+      <div>
+        <label for="nome">Nome:</label>
+        <input placeholder="Insira aqui seu nome" type="text" id="nome" [(ngModel)]="nome">
+      </div>
+      
+      <div>
+        <label for="email">E-mail:</label>
+        <input placeholder="Insira aqui seu e-mail" type="email" id="email" [(ngModel)]="email">
+      </div>
 
     <div class="linha">
-      <label for="cel">Celular</label>
-      <input placeholder="Insira aqui seu telefone" type="tel" id="cel" [(ngModel)]="cel">
-      <label for="ra">RA</label>
-      <input placeholder="Insira aqui seu RA" type="text" id="ra" [(ngModel)]="ra">
+      <div>
+        <label for="cel">Celular:</label>
+        <input placeholder="Insira aqui seu Celular" type="tel" id="cel" [(ngModel)]="cel">
+      </div>
+      <div>
+        <label for="ra">RA:</label>
+        <input placeholder="Insira aqui seu RA" type="text" id="ra" [(ngModel)]="ra">
+      </div>
     </div>
   </div>
 
